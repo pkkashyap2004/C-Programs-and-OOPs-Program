@@ -14,6 +14,9 @@ class Test {
 };
 int main(){
     Test t;
-    t.set(10);
+    int number;
+    cout<<"Enter any number : ";
+    cin>>number;
+    t.set(number);
     t.show();
 }
